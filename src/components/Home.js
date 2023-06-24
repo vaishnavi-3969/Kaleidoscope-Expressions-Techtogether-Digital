@@ -45,22 +45,10 @@ const Home = () => {
             path: '/events',
         },
         {
-            title: 'Collections',
-            description: 'Create and explore art collections',
-            icon: '🗃️',
-            path: '/collections',
-        },
-        {
             title: 'Chat',
             description: 'Connect with other art enthusiasts',
             icon: '💬',
             path: '/chat',
-        },
-        {
-            title: 'Favorites',
-            description: 'Save your favorite artworks',
-            icon: '⭐',
-            path: '/favorites',
         },
         {
             title: 'Trending',
