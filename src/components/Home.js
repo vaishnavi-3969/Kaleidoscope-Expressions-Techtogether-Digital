@@ -72,17 +72,7 @@ const Home = () => {
     return (
         <div className="min-h-screen bg-gray-900 py-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
-            <div className="spotlights-container">
-          <div className="spotlight">
-            <div className="bulb" />
-          </div>
-          <div className="spotlight">
-            <div className="bulb" />
-          </div>
-          <div className="spotlight">
-            <div className="bulb" />
-          </div>
-        </div>
+
                 <h1 className="text-4xl font-bold text-white mb-8 animate-wavy text-center">Welcome to </h1>
                 <div className="container mx-auto px-4 py-8">
                     <motion.div
@@ -92,7 +82,19 @@ const Home = () => {
                         className="flex items-center justify-center mb-8"
                     >
                         <div className="w-40 h-40 flex items-center justify-center rounded-full bg-gray-900">
-                            <img src={Logo} alt="Logo" className="h-30 w-30" />
+                            <div className="spotlights-container">
+                                <img src={Logo} alt="Logo" className="h-30 w-30" />
+
+                                <div className="spotlight">
+                                    <div className="bulb" />
+                                </div>
+                                <div className="spotlight">
+                                    <div className="bulb" />
+                                </div>
+                                <div className="spotlight">
+                                    <div className="bulb" />
+                                </div>
+                            </div>
                         </div>
                         <h1 className="text-3xl md:text-6xl font-bold text-yellow-300 bg-gradient-to-r from-purple-900 to-indigo-800">
                             <Typewriter

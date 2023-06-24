@@ -61,15 +61,15 @@ code {
 
 @keyframes spotlight-glow {
   0% {
-    transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.3);
     opacity: 0.8;
   }
   50% {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(0.8);
     opacity: 0.3;
   }
   100% {
-    transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.2);
     opacity: 0.8;
   }
 }
